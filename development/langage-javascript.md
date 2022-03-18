@@ -13,7 +13,7 @@
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ✅
+### Un exemple de code commenté ❌
 
 ```javascript
 // (e) => mc2;

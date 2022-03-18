@@ -1,50 +1,62 @@
-Langage Javascript
-❌ A travailler
-✔️ Auto validation par l'étudiant
+# Langage Javascript
 
-🎓 J'ai compris et je peux expliquer
-* les structures de base du langage ✅
-* les normes ecmascript ✅
-* l'utilisation de l'asynchrone ✅
-* les spécifités du mot-clef this ✅
+> ❌ A travailler
 
-💻 Je code en Javascript
+> ✔️ Auto validation par l'étudiant
 
-Un exemple de code commenté ✅
-// (e) => mc2;
+## 🎓 J'ai compris et je peux expliquer
 
-Utilisation dans un projet ✅
-https://github.com/Dr-Wouse/RETROWILD
-Description : Projet en full Vanilla-JS. Avec un jeu de type breakout fonctionnel.
+- les `structures` de base du langage ❌ / ✔️
+- les normes `ecmascript` ❌ / ✔️
+- l'utilisation de l'`asynchrone` ❌ / ✔️
+- les spécifités du mot-clef `this` ❌ / ✔️
 
-J'ai utilisé ce langage en production ❌ / ✔️
-lien du projet
+## 💻 Je code en Javascript
+
+### Un exemple de code commenté ❌ / ✔️
+
+```javascript
+(e) => mc2;
+```
+
+### Utilisation dans un projet ❌ / ✔️
+
+[lien github](...)
+
 Description :
 
-J'ai utilisé ce langage en environement professionnel ✅
+### J'ai utilisé ce langage en production ❌ / ✔️
+
+[lien du projet](...)
+
 Description :
-Dans mon entreprise actuelle, nous développons un projet en Next-Js. C'est un projet que nous avons démarré lors de notre cession à la Wild en Septembre - Février lors des projets professionnels. Par la suite, l'entreprise m'a recruté afin de continuer le développement.
 
-🌐 J'utilise des ressources
+### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
 
-Titre
-// Youtube //
-Grafikart : https://www.youtube.com/channel/UCj_iGliGCkLcHSZ8eqVNPDQ
-FromScratch : https://www.youtube.com/c/FromScratchD%C3%A9veloppementWeb
-// Documentation //
-Tutotiel.Js : https://fr.javascript.info/
-FreeCodeCamp : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+Description :
 
-🚧 Je franchis les obstacles
+## 🌐 J'utilise des ressources
 
-Point de blocage ❌ / ✔️
+### Titre
+
+- lien
+- description
+
+## 🚧 Je franchis les obstacles
+
+### Point de blocage ❌ / ✔️
+
 Description:
+
 Plan d'action : (à valider par le formateur)
-* action 1 ❌ / ✔️
-* action 2 ❌ / ✔️
-* ...
+
+- action 1 ❌ / ✔️
+- action 2 ❌ / ✔️
+- ...
+
 Résolution :
 
-📽️ J'en fais la démonstration
-* J'ai ecrit un tutoriel ❌ / ✔️
-* J'ai fait une présentation ❌ / ✔️
+## 📽️ J'en fais la démonstration
+
+- J'ai ecrit un [tutoriel](...) ❌ / ✔️
+- J'ai fait une [présentation](...) ❌ / ✔️

@@ -43,12 +43,12 @@ Par la suite, l'entreprise m'a recruté afin de continuer le développement.
 ### Titre
 
 YOUTUBE : 
-Grafikart : https://www.youtube.com/channel/UCj_iGliGCkLcHSZ8eqVNPDQ
-FromScratch : https://www.youtube.com/c/FromScratchD%C3%A9veloppementWeb
+- Grafikart : https://www.youtube.com/channel/UCj_iGliGCkLcHSZ8eqVNPDQ
+- FromScratch : https://www.youtube.com/c/FromScratchD%C3%A9veloppementWeb
 
 DOCUMENTATION : 
-Tutotiel.Js : https://fr.javascript.info/
-FreeCodeCamp : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+- Tutotiel.Js : https://fr.javascript.info/
+- FreeCodeCamp : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
 
 ## 🚧 Je franchis les obstacles
 

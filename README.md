@@ -33,7 +33,3 @@
 ## ℹ️ Aide
 
 - [Comment mettre à jour mon carnet de compétences](help/how-to-update.md)
-# -worknstudy-skills
-# -worknstudy-skills
-# -worknstudy-skills
-# -worknstudy-skills

@@ -54,7 +54,8 @@ const enemies = [
     }
   }
   
-  /* Nous pouvons écrire une fonction qui s'occupe de créer un objet initialisé avec les bonnes paires clé/valeurs pour éviter la répétition */
+  /* Nous pouvons écrire une fonction qui s'occupe de créer un objet initialisé 
+  avec les bonnes paires clé/valeurs pour éviter la répétition */
 
 function createEnemy(name, level, emoji, attackName) {
   const enemy = {};

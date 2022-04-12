@@ -16,7 +16,91 @@
 ### Un exemple de code commenté ❌
 
 ```javascript
-// (e) => mc2;
+/* 
+A chaque fois que nous créons un nouvel objet, nous recréons toutes 
+les propriétés de l'objet.
+
+Nous créons une fonction à chaque fois, même si c'est toujours la même.
+
+NOUS NOUS RÉPÉTONS... CE QUI N'EST PAS BON POUR LA PROGRAMMATION
+*/
+
+const enemies = [
+  {
+    name: "Spider", 
+    level: 1, 
+    emoji: "🕷",
+    attackName: "bites", 
+    attack: function () {
+      return `${this.name} ${this.attackName} you!`;
+    }
+  },
+  {
+    name: "Snake", 
+    level: 6, 
+    emoji: "🐍", 
+    attackName: "bites", 
+    attack: function () {
+      return `${this.name} ${this.attackName} you!`;
+    }
+  },
+  {
+    name: "Bear", 
+    level: 25, 
+    emoji: "🐻", 
+    attackName: "scratches", 
+    attack: function () {
+      return `${this.name} ${this.attackName} you!`;
+    }
+  }
+  
+  /* Nous pouvons écrire une fonction qui s'occupe de créer un objet initialisé avec les bonnes paires clé/valeurs pour éviter la répétition */
+
+function createEnemy(name, level, emoji, attackName) {
+  const enemy = {};
+
+  enemy.name = name;
+  enemy.level = level;
+  enemy.emoji = emoji; 
+  enemy.attackName = attackName;
+
+  enemy.attack = function () {
+    return `${this.name} ${this.attackName} you!`;
+  };
+
+  return enemy;
+}
+
+const enemies = [
+  createEnemy("Spider", 1, "🕷", "bites"),
+  createEnemy("Snake", 6, "🐍", "bites"),
+  createEnemy("Bear", 25, "🐻", "scratches"),
+];
+
+console.log(enemies);
+];
+
+/* Il existe une méthode plus efficace que la création d'une factory en Javascript. */ 
+
+function Enemy(name, level, emoji, attackName) {
+  this.name = name;
+  this.level = level;
+  this.emoji = emoji;
+  this.attackName = attackName;
+
+  this.attack = function () {
+    return `${this.name} ${this.attackName} you!`;
+  };
+}
+
+/* C'est un peu la même chose, mais cette fois nous n'avons pas à créer ni 
+retourner l'objet. */
+
+const spider = new Enemy("Spider", 1, "🕷", "bites");
+
+console.log(spider);     
+// Enemy {name: "spider", level: 1, emoji: "🕷", attackName: "bites"…}
+
 ```
 
 ### Utilisation dans un projet ✅
